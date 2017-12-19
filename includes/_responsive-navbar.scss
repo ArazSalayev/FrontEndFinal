@@ -1,0 +1,109 @@
+#responsive-navbar{
+	margin-top: -150px;
+		.navbar{
+
+			height: 70px;
+			background: white;
+			padding: 15px;
+			margin: 0px -15px;
+			position: fixed;
+			z-index:50;
+			button{
+				background:none;
+				border:none;
+				
+
+
+
+			i{
+				color:black;
+				font-size: 2em;
+				margin-left: 15px;
+			}
+			}
+			img{
+				margin-left: 20px;
+
+			}
+			.nav-footer{
+				transition: .5s ease;
+				margin-top: 10px;
+				width: 320px;
+				overflow-y: scroll;
+				overflow-x:hidden; 
+				position: fixed;
+				height: 400px;
+				margin-left: -400px; 
+				
+					ul{
+						background-color: white;
+
+						
+						li{
+							margin-left: 20px;
+							font-size:1.2em;
+							list-style: none;
+							width: 100%;
+						
+								a{
+							   		 color: #337ab7;
+
+							   		 &:hover{
+									 background-color:#084884;
+									 color: white;
+									};
+									}
+						}			
+					}
+					.inputs-icon{
+							#input{
+								margin: 0 auto;				
+								margin-top: 50px ;
+								border-radius:50px; 
+								height: 50px;
+								width: 230px;								
+								display: block;
+
+								}	
+					i{
+						margin-left: -35px;
+						font-size: 1.3em;
+						color: gray;
+					}	
+
+					}
+					.icons{
+						margin: 0 auto;
+						margin-left: 60px;
+						font-size: 20px;
+						color: #42a4ff;
+						margin-top: 5px;
+						display: block;
+
+							
+						
+						i{
+							margin-left: 10px;
+							&:hover{
+								color:#084884;}
+					}
+
+				}
+
+						button{
+							
+							margin: 0 auto;
+						/*margin-left: 35px;*/
+						margin-top: 25px;
+						background-color: #42a4ff;
+						border-radius: 50px;
+						width: 230px;
+						height: 50px;
+					display: block;}
+					
+			}
+				
+					
+
+	}
+}

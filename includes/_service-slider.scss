@@ -1,0 +1,82 @@
+#costumer_service_slider{
+	top: 0px;
+	height: 480px;
+	overflow: hidden;
+	
+	.service-slider{
+		position: relative;
+		
+		/*z-index: -45;*/
+		.first-slide, .second-slide, .third-slide{
+				width: 100%;
+			h1{
+				z-index: 45;
+				position: absolute;
+				left:0;
+				line-height: 1.2;
+    			font-size: 60px;
+    			margin-top: 50px;
+			}
+			p{
+				z-index: 45;
+				position: absolute;
+				left:0px;
+				line-height: 1.2;    			
+    			margin-top: 250px;
+    			font-weight: 400;
+    			font-style: italic;
+    			color: #777;
+    			line-height: 1.20833;
+   				 font-size: 24px;
+			}
+
+		
+		img{
+			position: absolute;
+			right:-340px;
+			/*z-index: 45;*/
+			
+		}
+		a{
+			left:0px;
+			margin-top: 350px;
+			z-index: 45;
+			position: absolute;
+			background-color: #42a4ff;
+			border-radius: 50px;
+			width: 230px;
+			height: 50px;
+			padding-top: 10px;
+			font-size: 1.4em;
+			font-style: bold;
+			border: none;
+			font-weight: bold;
+			&:hover{
+				background:#1872c5;}
+
+
+			} 
+
+			.dots{
+				  position: absolute;
+					
+
+				.first-dot,.second-dot,.third-dot{
+					margin-left:15px;
+					width: 15px;
+					height: 15px;
+					border-radius: 100%;
+					background: gray;
+					left:0px;
+					margin-top: 430px;
+					display: inline-block;
+					
+					&:hover{
+						background:#1872c5;
+						cursor:pointer;
+						};				}
+			}
+		}
+
+	}
+}
